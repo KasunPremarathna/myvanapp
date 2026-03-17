@@ -1,0 +1,12 @@
+build\
+.dart_tool\
+.gradle\
+.idea\
+.pub-cache\
+*.tmp
+bin\
+ios\Pods\
+ios\.symlinks\
+ios\Flutter\Flutter.framework\
+ios\Flutter\Flutter.podspec
+node_modules\
