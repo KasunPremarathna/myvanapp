@@ -39,7 +39,7 @@ void main() async {
 
   // OneSignal Init
   OneSignal.Debug.setLogLevel(OSLogLevel.none);
-  OneSignal.initialize("fd860c06-8fb5-420e-867f-1abb6a85f9c2");
+  OneSignal.initialize("64b068ea-2864-4160-91ce-4ca533044ad8");
   
   // Schedule/Reset 5-day re-engagement reminder
   await NotificationService.scheduleReEngagementReminder();

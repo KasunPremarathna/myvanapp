@@ -5,3 +5,11 @@
 -dontwarn javax.annotation.**
 -dontwarn org.checkerframework.**
 -dontwarn com.google.errorprone.annotations.**
+
+# Firebase & OneSignal
+-keep class com.google.firebase.** { *; }
+-dontwarn com.google.firebase.**
+-keep class com.onesignal.** { *; }
+-dontwarn com.onesignal.**
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
